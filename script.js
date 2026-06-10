@@ -1061,7 +1061,7 @@ if (currentSession === 3) {
     console.log("Checking inputs for question", i, { code1, code2, exp1, exp2 });
 
     return {
-      session: currentSession,
+      session: sessionNumber,
       question: q,
       q_id: i + 1,
       chatgptAnswer: code1?.element.getValue() || "",
